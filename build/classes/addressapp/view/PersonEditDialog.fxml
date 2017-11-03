@@ -9,7 +9,12 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 
+<<<<<<< HEAD
 <AnchorPane id="AnchorPane" prefHeight="256.0" prefWidth="336.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="addressapp.PersonEditDialogController">
+=======
+
+<AnchorPane id="AnchorPane" prefHeight="256.0" prefWidth="336.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/9.0.1" fx:controller="addressapp.PersonEditDialogController">
+>>>>>>> master
    <children>
       <GridPane layoutX="22.0" layoutY="14.0" prefHeight="180.0" prefWidth="288.0">
         <columnConstraints>
@@ -31,12 +36,21 @@
             <Label layoutX="110.0" layoutY="107.0" text="First Name" />
             <Label layoutX="110.0" layoutY="107.0" text="Birthday" GridPane.rowIndex="5" />
             <Label layoutX="110.0" layoutY="107.0" text="Postal Code" GridPane.rowIndex="4" />
+<<<<<<< HEAD
             <TextField fx:id="firstNameField" GridPane.columnIndex="1" />
             <TextField fx:id="streetField" layoutX="110.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
             <TextField fx:id="lastNameField" layoutX="110.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
             <TextField fx:id="cityField" layoutX="110.0" layoutY="73.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
             <TextField fx:id="postalCodeField" layoutX="110.0" layoutY="103.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
             <TextField fx:id="birthdayField" layoutX="110.0" layoutY="133.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+=======
+            <TextField fx:id="firstNameTextField" GridPane.columnIndex="1" />
+            <TextField fx:id="streetTextField" layoutX="110.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <TextField fx:id="lastNameTextField" layoutX="110.0" layoutY="13.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <TextField fx:id="cityTextField" layoutX="110.0" layoutY="73.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <TextField fx:id="postalCodeTextField" layoutX="110.0" layoutY="103.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <TextField fx:id="birthdayTextField" layoutX="110.0" layoutY="133.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+>>>>>>> master
          </children>
       </GridPane>
       <ButtonBar layoutX="106.0" layoutY="194.0" prefHeight="40.0" prefWidth="200.0">

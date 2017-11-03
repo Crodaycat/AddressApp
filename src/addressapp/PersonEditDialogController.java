@@ -6,8 +6,11 @@
 package addressapp;
 
 import javafx.fxml.FXML;
+<<<<<<< HEAD
 import javafx.scene.control.Alert;
 import javafx.scene.control.Alert.AlertType;
+=======
+>>>>>>> master
 import javafx.scene.control.TextField;
 import javafx.stage.Stage;
 import addressapp.model.Person;
@@ -151,6 +154,7 @@ public class PersonEditDialogController {
         if (errorMessage.length() == 0) {
             return true;
         } else {
+<<<<<<< HEAD
             // Show the error message.
             Alert alert = new Alert(AlertType.ERROR);
             alert.initOwner(dialogStage);
@@ -161,6 +165,17 @@ public class PersonEditDialogController {
             alert.showAndWait();
 
             return false;
+=======
+           /* // Show the error message.
+            Dialogs.create()
+                .title("Invalid Fields")
+                .masthead("Please correct invalid fields")
+                .message(errorMessage)
+                .showError();
+*/
+            return false;
+
+>>>>>>> master
         }
     }
 }
