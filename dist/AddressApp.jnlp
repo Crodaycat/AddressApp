@@ -8,15 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-<<<<<<< HEAD
-<<<<<<< HEAD
-    <jar href="AddressApp.jar" size="14353" download="eager" />
-=======
-    <jar href="AddressApp.jar" size="770680" download="eager" />
->>>>>>> master
-=======
-    <jar href="AddressApp.jar" size="808143" download="eager" />
->>>>>>> LuisBranch
+    <jar href="AddressApp.jar" size="781994" download="eager" />
   </resources>
   <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="AddressApp" >
     <param name="requiredFXVersion" value="8.0+"/>

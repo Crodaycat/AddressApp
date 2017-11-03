@@ -104,8 +104,6 @@ public class PersonOverviewController {
         birthdayLabel.setText("");
     }
    }
-<<<<<<< HEAD
-=======
     
     @FXML
     private void handleDeletePerson() {
@@ -121,7 +119,6 @@ public class PersonOverviewController {
        alert.showAndWait();
     }
 }
->>>>>>> master
     /**
  * Called when the user clicks the new button. Opens a dialog to edit
  * details for a new person.
@@ -133,7 +130,6 @@ private void handleNewPerson() {
     if (okClicked) {
         mainApp.getPersonData().add(tempPerson);
     }
-<<<<<<< HEAD
 }
 
 /**
@@ -160,43 +156,5 @@ private void handleEditPerson() {
         alert.showAndWait();
     }
 }
-@FXML
-private void handleDeletePerson() {
-    int selectedIndex = personTable.getSelectionModel().getSelectedIndex();
-    personTable.getItems().remove(selectedIndex);
+
 }
-}
-    
-
-
-  
-=======
-}
-
-/**
- * Called when the user clicks the edit button. Opens a dialog to edit
- * details for the selected person.
- */
-@FXML
-private void handleEditPerson() {
-    Person selectedPerson = personTable.getSelectionModel().getSelectedItem();
-    if (selectedPerson != null) {
-        boolean okClicked = mainApp.showPersonEditDialog(selectedPerson);
-        if (okClicked) {
-            showPersonDetails(selectedPerson);
-        }
-
-    } else {
-         // Nothing selected.
-        Alert alert = new Alert(AlertType.WARNING);
-        alert.initOwner(mainApp.getPrimaryStage());
-        alert.setTitle("No Selection");
-        alert.setHeaderText("No Person Selected");
-        alert.setContentText("Please select a person in the table.");
-
-        alert.showAndWait();
-    }
-}
-
-  }
->>>>>>> master
